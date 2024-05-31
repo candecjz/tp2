@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 5</title>
+    <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
     <div class="contenedor">
-        <h1>Calculadora de Área de Terreno</h1>
+        <h1>Calculadora: <br> Área de un terreno</h1>
         <form id="areaForm">
-            <label for="ladoA">Lado A (m):</label>
+            <label for="ladoA">Lado A (mts):</label>
             <input type="number" id="ladoA" name="ladoA" required>
             
-            <label for="ladoB">Lado B (m):</label>
+            <label for="ladoB">Lado B (mts):</label>
             <input type="number" id="ladoB" name="ladoB" required>
             
-            <label for="ladoC">Lado C (m):</label>
+            <label for="ladoC">Lado C (mts):</label>
             <input type="number" id="ladoC" name="ladoC" required>
             
             <button type="button" onclick="calcularArea()">Calcular Área</button>

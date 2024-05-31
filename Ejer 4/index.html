@@ -3,18 +3,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 4</title>
+    <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
     <div class="contenedor">
-        <h1>Calcular Índice de Masa Corporal</h1>
+        <h1>Calcular: <br> índice de masa corporal</h1>
         <form id="imcForm">
-            <label for="peso">Peso en Kilogramos:</label>
+            <label for="peso">Peso en kilogramos:</label>
             <input type="number" id="peso" name="peso" required>
 
-            <label for="estatura">Estatura en Metro</label>
+            <label for="estatura">Estatura en metro</label>
             <input type="number" id="estatura" name="estatura" required>
 
-            <button type="button" onclick="calcularIMC()">Calcular</button>
+            <button type="button" onclick="calcularIMC()">Calcular IMC</button>
         </form>
     </div>
     <script src="script.js"></script>
