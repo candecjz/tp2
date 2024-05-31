@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5</title>
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Calculadora de Área de Terreno</h1>
+        <form id="areaForm">
+            <label for="ladoA">Lado A (m):</label>
+            <input type="number" id="ladoA" name="ladoA" required>
+            
+            <label for="ladoB">Lado B (m):</label>
+            <input type="number" id="ladoB" name="ladoB" required>
+            
+            <label for="ladoC">Lado C (m):</label>
+            <input type="number" id="ladoC" name="ladoC" required>
+            
+            <button type="button" onclick="calcularArea()">Calcular Área</button>
+        </form>
+        <p id="resultado"></p>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
